@@ -102,6 +102,7 @@ const startQuiz = () => {
 	currentQuestionIndex = 0;
 	score = 0;
 	next_button.innerHTML = "Next";
+	next_button.style.visibility = "hidden";
 	showQuestion();
 };
 
